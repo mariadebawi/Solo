@@ -1,0 +1,38 @@
+
+/* ========================
+  Default values :
+   FONT : 
+     raleway , open sans 
+   Colors :
+     moon yellow : #f4c613
+     gray : #212226
+     white smoker : #f4f4f4 
+     white : #fff 
+     black : #000  ;
+============================ */
+
+/*================================
+    | | | Preloader 
+==================================*/
+#preloader{
+    background-color: #fff ;
+    position: fixed ;
+    top : 0 ;
+    bottom: 0 ;
+    left: 0 ;
+    right: 0 ;
+    z-index: 999 ;
+        jjjjj
+}
+#status{
+    background-image: url("../solo-images/preloader/preloader.gif");
+    background-repeat: no-repeat ;
+    width: 70px ;
+    height: 70px ;
+    position: absolute ;
+    left: 50% ;
+    top: 50% ;
+    margin-top: -35px ;
+    margin-left: -35px;
+
+}
