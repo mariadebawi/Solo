@@ -11,7 +11,7 @@
 ============================ */
 
 /*================================
-    | | | html , body 
+    | | | html , body  , buttons
 ==================================*/
 html,
 body {
@@ -40,7 +40,23 @@ section {
     overflow: hidden;
 }
 
-
+.btn-generale{
+    font-family: 'raleway', sans-serif;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+    font-size: 13px ;
+    text-transform: uppercase ;
+    margin: 0 6px ;
+    padding: 12px 46px 12px 46px ;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
 /*================================
     | | | Preloader 
 ==================================*/
@@ -119,4 +135,36 @@ section {
 #home-heading h1 span {
     color : #f4c613 ;
     font-weight: 500 ;
+}
+#home-text p {
+ color: #fff ;
+ font-size: 17px;
+ font-weight: 100 ;
+ margin: 8px 0 30px 0 ;
+}
+.btn-home{
+    color : #fff ;
+    border: 1px solid #fff ;
+}
+.btn-home:hover , .btn-home:focus {
+    color: #fff ;
+    background: #f4c613;
+    border: 1px solid #f4c613 ;
+}
+
+/*** Arrow Down**/
+#arrow-down{
+    position: absolute ;
+    left: 50% ;
+    bottom: 20px ;
+    color: #fff ;
+    font-size: 32px ;
+    width: 32px ;
+    height: 32px;
+    text-align: center ;
+    margin-left: -16px ;/* 32 div 2**/
+    z-index: 1 ;
+}
+#arrow-down:hover , #arrow-down:focus {
+    color: #f4c613 ;
 }
