@@ -194,9 +194,11 @@ section {
 .content-box-lg {
     padding: 120px 0;
 }
-.content-box-md{
+
+.content-box-md {
     padding: 100px 0;
 }
+
 /*================================
     | | | Vertical  Headings  | | |
 ==================================*/
@@ -238,33 +240,71 @@ section {
 .about-bottom img {
     margin: 0 auto;
 }
+
 /*================================
     | | | About 02  | | |
 ==================================*/
-#about-02{
+#about-02 {
     background-color: #f4f4f4;
 }
-.about-item{
-    background:  #fff ;
-    padding: 80px 30px ;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1) ;
+
+.about-item {
+    background: #fff;
+    padding: 80px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
+
 .about-item i {
-    font-size: 40px ;
+    font-size: 40px;
     margin: 0;
 }
+
 .about-item h3 {
-    font-size: 24px ;
+    font-size: 24px;
     margin-bottom: 10px;
-    margin-top: 5px ;
+    margin-top: 5px;
 }
+
 .about-item hr {
-    width: 45px ;
+    width: 45px;
     height: 3px;
-    background-color: #f4c613 ;
-    border: none ;
-    margin: 0 auto ;
+    background-color: #f4c613;
+    border: none;
+    margin: 0 auto;
 }
+
 .about-item p {
-    margin-top: 20px ;
+    margin-top: 20px;
+}
+
+.about-item:hover {
+    background-color: #f4c613;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+    color: #fff;
+}
+
+.about-item:hover hr {
+    background-color: #fff;
+}
+
+.about-item:hover i {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+}
+
+.about-item i,
+.about-item h3,
+.about-item p {
+    transition: all 400ms ease-in-out;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
 }
