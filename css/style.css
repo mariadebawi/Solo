@@ -10,16 +10,18 @@
      black : #000  ;
 ============================ */
 
-/*================================
-    | | | html , body  , buttons
-==================================*/
+/*=========================================
+    | | | html , body  , buttons | | |
+==========================================*/
 html,
 body {
     height: 100%;
 }
+
 body {
     color: #212226;
 }
+
 h1,
 h2,
 h3,
@@ -28,6 +30,7 @@ h5,
 h6 {
     font-family: 'raleway', sans-serif;
 }
+
 p {
     font-family: 'open sans', sans-serif;
     font-size: 13px;
@@ -40,25 +43,26 @@ section {
     overflow: hidden;
 }
 
-.btn-generale{
+.btn-generale {
     font-family: 'raleway', sans-serif;
     border-radius: 28px;
     -webkit-border-radius: 28px;
     -moz-border-radius: 28px;
     -ms-border-radius: 28px;
     -o-border-radius: 28px;
-    font-size: 13px ;
-    text-transform: uppercase ;
-    margin: 0 6px ;
-    padding: 12px 46px 12px 46px ;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0 6px;
+    padding: 12px 46px 12px 46px;
     transition: all .3s;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -ms-transition: all .3s;
     -o-transition: all .3s;
 }
+
 /*================================
-    | | | Preloader 
+    | | | Preloader  | | |
 ==================================*/
 #preloader {
     background-color: #fff;
@@ -85,15 +89,15 @@ section {
 }
 
 /*================================
-    | | | Home
+    | | | Home  | | |
 ==================================*/
-#home{
+#home {
     background: none;
-    height: 100% ;
+    height: 100%;
 }
+
 #home_vedio_bg {
-    /** fixed a video **/
-    position: fixed;
+    /**fixedavideo**/position: fixed;
     left: 50%;
     top: 50%;
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -103,6 +107,9 @@ section {
     width: auto;
     height: auto;
     z-index: -1;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
 }
 
 #home_overlay {
@@ -115,56 +122,67 @@ section {
     left: 0;
     z-index: -1;
 }
-#home-content{
-    width: 100% ;
+
+#home-content {
+    width: 100%;
     height: 100%;
-    display: table ;
+    display: table;
 }
-#content-inner{
+
+#content-inner {
     display: table-cell;
-    vertical-align: middle ;
+    vertical-align: middle;
 }
+
 #home-heading h1 {
-    color: #fff ;
-    font-size: 65px ;
-    font-weight: 100 ;
-    text-transform: uppercase ;
-    margin : 0 ;
-    display: inline-block ;
+    color: #fff;
+    font-size: 65px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
 }
+
 #home-heading h1 span {
-    color : #f4c613 ;
-    font-weight: 500 ;
+    color: #f4c613;
+    font-weight: 500;
 }
+
 #home-text p {
- color: #fff ;
- font-size: 17px;
- font-weight: 100 ;
- margin: 8px 0 30px 0 ;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 100;
+    margin: 8px 0 30px 0;
 }
-.btn-home{
-    color : #fff ;
-    border: 1px solid #fff ;
+
+.btn-home {
+    color: #fff;
+    border: 1px solid #fff;
 }
-.btn-home:hover , .btn-home:focus {
-    color: #fff ;
+
+.btn-home:hover,
+.btn-home:focus {
+    color: #fff;
     background: #f4c613;
-    border: 1px solid #f4c613 ;
+    border: 1px solid #f4c613;
 }
 
 /*** Arrow Down**/
-#arrow-down{
-    position: absolute ;
-    left: 50% ;
-    bottom: 20px ;
-    color: #fff ;
-    font-size: 32px ;
-    width: 32px ;
+#arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    color: #fff;
+    font-size: 32px;
+    width: 32px;
     height: 32px;
-    text-align: center ;
-    margin-left: -16px ;/* 32 div 2**/
-    z-index: 1 ;
+    text-align: center;
+    margin-left: -16px;
+    /* 32 div 2**/
+    z-index: 1;
 }
-#arrow-down:hover , #arrow-down:focus {
-    color: #f4c613 ;
+
+#arrow-down:hover,
+#arrow-down:focus {
+    color: #f4c613;
 }
