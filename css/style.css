@@ -405,3 +405,48 @@ ul.social-list li:nth-child(3) a:hover {
 .owl-nav  i{
     padding: 0 7px;
 }
+/*================================
+    | | |  Skills   | | |
+==================================*/
+.skill{
+    margin-bottom: 20px;
+}
+.skill h4 {
+    line-height: 62px ;
+    font-weight: normal ;
+    margin: 0 ;
+}
+.progress {
+    height: 25px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    background: #efefef ;
+    overflow: visible;
+}
+.progress-bar{
+    background-color: #f4c613 ;
+    position: relative ;
+
+}
+.progress-bar span {
+    font-size: 11px ;
+    font-family: 'open sans', sans-serif;
+    font-weight: 100;    
+    background-color: #212226 ;
+    padding: 3px ;
+    position: absolute ;
+    left: 97% ;
+    top: -35px ;
+}
+.progress-bar span:before  {
+  content: "";
+  border-top: 8px solid #212226 ;
+  border-left: 6px solid transparent ;
+  border-right: 6px solid transparent ;
+  position: absolute ;
+  bottom: -8px ;
+  left: 23% ;
+}
