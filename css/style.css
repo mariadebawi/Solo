@@ -216,7 +216,7 @@ section {
     -o-transform: rotate(-90deg);
     position: relative;
     top: 60px;
-    left: -65px;
+    left: -53px;
 }
 
 .vertical-heading h2 {
@@ -307,4 +307,101 @@ section {
     -moz-transition: all 400ms ease-in-out;
     -ms-transition: all 400ms ease-in-out;
     -o-transition: all 400ms ease-in-out;
+}
+
+/*================================
+    | | | Teams  | | |
+==================================*/
+#team-left .vertical-heading {
+    min-height: 160px ;
+}
+.team-member {
+  margin: 8px ;
+  position: relative;
+
+}
+.team-member-overlay {
+    background-color: rgba(33, 34, 38, .9) ;
+    position: absolute;
+    top:0 ;
+    left: 0 ;
+    height: 100%;
+    width: 100% ;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+.team-member-info {
+    width: 100%  ;
+    height: 100%  ;
+    padding: 80px 0 ;
+}
+.team-member-info h6{
+ color: #f4c613 ;
+ font-size: 16px ;
+ margin: 0 ;
+}
+.team-member-info p {
+    color: #fff ;
+}
+.team-member:hover .team-member-overlay  {
+    opacity: 1;
+}
+/*================================
+    | | | Social Icons  | | |
+==================================*/
+ul.social-list {
+    padding: 0 ;
+    margin-top: 20px ;
+}
+ul.social-list li {
+    padding: 0 ;
+    display: inline-block ;
+}
+ul.social-list li a {
+    border: 1px solid #fff ;
+    color: #fff ;
+    display: inline-block;
+    width: 35px ;
+    height: 35px;
+    line-height: 35px ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 400ms linear;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+}
+ul.social-list li:nth-child(1) a:hover {
+  background-color: #3b5998 ;
+  border-color: transparent ;
+}
+ul.social-list li:nth-child(2) a:hover {
+    background-color: #00aced ;
+    border-color: transparent ;
+  }
+ul.social-list li:nth-child(3) a:hover {
+    background-color: #dd4b39 ;
+    border-color: transparent ;
+}
+/*================================
+    | | |  Owl---Carousel   | | |
+==================================*/
+.owl-nav {
+    text-align: center ;
+    background: none ;
+    font-size: 30px;
+    margin: 0 ;
+    color: #212226 ;
+}
+.owl-nav  i{
+    padding: 0 7px;
 }

@@ -12,6 +12,7 @@ $(window).on('load', function () {
 $(document).ready(function(){
     $('#team-members').owlCarousel({
         items:2 ,
+        loop : true ,
         autoplay:true ,
         SmartSpeed : 700 ,
         autoplayHoverPause: true,
