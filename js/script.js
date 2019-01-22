@@ -49,3 +49,12 @@ $(function(){
     });
    
 });
+
+/*================================
+    | | | Responsive Tabs | | |
+==================================*/
+$(function(){
+    $('#services-tabs').responsiveTabs({
+        animation: 'slide', // The panels will slide up and down
+    });
+});
