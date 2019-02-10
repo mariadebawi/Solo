@@ -168,6 +168,20 @@ section {
     border: 1px solid #f4c613;
 }
 
+.btn-yellow {
+    background: #f4c613;
+    color: #fff ;
+    border: 1px solid #f4c613;
+}
+.btn-yellow:hover,
+.btn-yellow:focus {
+    color: #fff;
+    background: #212226;
+    border: 1px solid #212226;
+}
+
+
+
 /*** Arrow Down**/
 #arrow-down {
     position: absolute;
@@ -559,4 +573,75 @@ ul.social-list li:nth-child(3) a:hover {
 }
 .service p {
     line-height: normal ;
+}
+
+/*============================================
+    | | |  Service 02 Responsive Tabs | | |
+===============================================*/
+#services-02{
+    background: #f4f4f4 ;
+}
+#services-tabs ul {
+  margin-bottom: 40px ;
+}
+#services-tabs ul li {
+    padding: 5px 30px ;
+}
+#services-tabs ul li a{
+   font-family: "Raleway" , sans-serif;
+   font-size: 13px ;
+   color: #212226 ;
+   text-transform: uppercase ;
+   font-weight: 400;
+   padding: 0 ;
+   text-decoration: none ;
+}
+/* Active Tabs */
+#services-tabs ul li.r-tabs-state-active a {
+    color: #f4c613 ;
+    font-weight: 700;
+    border-bottom: 3px solid #f4c613 ;
+    padding-bottom: 5px ;
+    transition: border-bottom 300ms linear;
+    -webkit-transition: border-bottom 300ms linear;
+    -moz-transition: border-bottom 300ms linear;
+    -ms-transition: border-bottom 300ms linear;
+    -o-transition: border-bottom 300ms linear;
+}
+/**** the content of tabs *****/
+.service-tab .col-md-6 {
+    padding: 0 ;
+}
+.service-tab img{
+  width: 100% ;
+  margin: 0 auto ;
+}
+.service-tab .tab-bg{
+ background: #fff;
+ padding: 60px 30px ;
+ min-height: 469px ;
+}
+.service-tab  .tab-bg h2 {
+    font-size: 48px ;
+    color: #bbb ;
+    font-weight: 100 ;
+    margin-bottom : 20px ;
+}
+.service-tab .tab-bg  h3 {
+  font-size: 30px ;
+  margin-bottom: 30px ;
+}
+.service-tab  .tab-bg p {
+    line-height: 24px ;
+    margin-bottom: 30px ;
+}
+
+/*================================
+    | | |  Portfolio   | | |
+==================================*/
+#portfolio .vertical-heading {
+ margin-bottom: 50px ;
+}
+.row.no-gutters[class*=col-] {
+  padding: 0 ;
 }
