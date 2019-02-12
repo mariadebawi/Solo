@@ -654,7 +654,9 @@ ul.social-list li:nth-child(3) a:hover {
 /*================================
     | | |  Portfolio   | | |
 ==================================*/
-
+#portfolio {
+    padding-bottom: 130px ;
+}
 #portfolio .vertical-heading {
     margin-bottom: 50px;
 }
@@ -745,6 +747,7 @@ ul.social-list li:nth-child(3) a:hover {
     position: absolute;
     top: 50%;
     left: 0;
+
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
@@ -758,11 +761,13 @@ ul.social-list li:nth-child(3) a:hover {
     font-size: 30px;
     margin: 0;
     padding: 0;
+
     transform: translateY(-20%);
     -webkit-transform: translateY(-20%);
     -moz-transform: translateY(-20%);
     -ms-transform: translateY(-20%);
     -o-transform: translateY(-20%);
+
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -785,11 +790,13 @@ ul.social-list li:nth-child(3) a:hover {
     font-size: 17px;
     margin: 0;
     padding: 0;
+
     transform: translateY(20%);
     -webkit-transform: translateY(20%);
     -moz-transform: translateY(20%);
     -ms-transform: translateY(20%);
     -o-transform: translateY(20%);
+
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -818,3 +825,49 @@ ul.social-list li:nth-child(3) a:hover {
 .portfolio-item:hover .portfolio-item-overlay {
     opacity: 1;
 }
+
+/*================================
+    | | |  Testemonials   | | |
+==================================*/
+#testimonials{
+    background: #f4f4f4 ;
+    padding-bottom: 35px;
+    overflow: visible;
+}
+#testimonials .vertical-heading {
+    padding: 80px 0 ;
+    margin-bottom: 100px ;
+}
+.testemonial-slider{
+  background: #f4c613;
+  top: -120px ;
+}
+.testemonial{
+    padding: 20px 45px 0 45px ;
+    color: #fff ;
+}
+.testemonial .row {
+    margin-bottom: 25px ;
+}
+.testemonial h3 {
+    font-size: 32px ;
+    line-height: 35px;
+}
+.testemonial .stars {
+   font-size: 20px;
+   margin: 20px 0 10px 0 ;
+}
+.testemonial p {
+    line-height: normal;
+    margin:  0 ;
+    margin-top: 5px ;
+    margin-bottom: 20px ;
+ }
+ .author .author-name-desp {
+   width: 160px ;
+   margin-top: 25px ;
+   text-align: left;
+}
+.author .author-name-desp p {
+    margin: 0 ;
+ }

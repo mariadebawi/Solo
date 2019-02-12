@@ -96,3 +96,21 @@ $(function () {
         },
     });
 });
+
+/*=========================================
+    | | | testemonials owl-carousel | | |
+===========================================*/
+$(document).ready(function () {
+    $('.testemonial-slider').owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: false,
+        SmartSpeed: 700,
+        autoplayHoverPause: true,
+        nav: true,
+        /* <> */
+        dots: false,
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+      
+    });
+});
