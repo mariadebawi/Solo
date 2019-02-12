@@ -58,3 +58,27 @@ $(function(){
         animation: 'slide', // The panels will slide up and down
     });
 });
+
+/*================================
+    | | | Isotop Filters | | |
+==================================*/
+$(window).on('load', function () {
+   //Initialize Isotope
+   $('#isotop-container').isotope({
+  });
+  //filter items on click button
+  $('#isotop-filters').on('click' , 'button' , function(){
+     //alert("you click me") ;
+     //get the value name of filter
+     var filterValue = $(this).attr('data-filter') ;
+       //alert('you click ' + filterValue) ;
+       //filter portfolio 
+       $('#isotop-container').isotope({
+           filter : filterValue
+       });
+       //active button
+       $('#isotop-filters').find('.active').removeClass('active') ;
+       $(this).addClass('active') ;
+
+  });
+});
