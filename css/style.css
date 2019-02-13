@@ -941,13 +941,7 @@ ul.social-list li:nth-child(3) a:hover {
     left: 5px ;
     bottom: -12px ;
  }
-.pricing-table .price h2 span.mouth  {
-    font-size: 11px ;
-    font-weight: 400;
-    position: absolute;
-    left: 5px ;
-    bottom: -12px ;
-}
+
 .pricing-table .price p {
     line-height: normal;
     font-weight: 200;
@@ -999,3 +993,7 @@ ul.social-list li:nth-child(3) a:hover {
 .pricing-table.black:hover {
     background: #f4c613;
 }
+
+/*================================
+    | | |  Stats   | | |
+==================================*/
