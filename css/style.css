@@ -1292,9 +1292,22 @@ ul.navbar-nav > li > a{
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-ul.navbar-nav > li > a:hover{
+ul.navbar-nav > li > a:hover , 
+ul.navbar-nav > li > a:focus{
      color: #f4c613 ;
      background: none ;
 }
-
-  
+ /** white navigation**/
+.white-nav-top{
+    background: #fff;
+    padding: 10px 0 !important;
+    box-shadow: 0 8px 6px -9px #999 !important;
+    z-index: 2;
+}
+.white-nav-top ul.navbar-nav > li > a{
+  color: #212226 ;
+}
+.white-nav-top ul.navbar-nav > li > a:hover , 
+.white-nav-top ul.navbar-nav > li > a:focus{
+    color: #f4c613  ;
+  }
