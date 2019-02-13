@@ -217,10 +217,11 @@ section {
 .content-box-md {
     padding: 100px 0;
 }
-.content-box-sm{
-    padding: 90px 0;
 
+.content-box-sm {
+    padding: 90px 0;
 }
+
 /*================================
     | | |  Headings  | | |
 ==================================*/
@@ -1021,7 +1022,8 @@ ul.social-list li:nth-child(3) a:hover {
 ==================================*/
 
 #stats {
-    background: url("../solo-images/stats/stats-bg.jpg") no-repeat fixed center ;/* parallexe */
+    background: url("../solo-images/stats/stats-bg.jpg") no-repeat fixed center;
+    /* parallexe */
     background-size: cover;
 }
 
@@ -1091,18 +1093,94 @@ ul.social-list li:nth-child(3) a:hover {
 /*================================
     | | |  Client   | | |
 ==================================*/
-#clients .horizontal-heading{
-  margin-bottom: 30px ;
+
+#clients .horizontal-heading {
+    margin-bottom: 30px;
 }
-#client-list{
-    padding: 45px 0 0 0 ;
+
+#client-list {
+    padding: 45px 0 0 0;
 }
+
 .client {
-    max-width: 150px ;
-    padding: 0 10px ;
-    margin: 0 auto ;
-    line-height: 100px ;
+    max-width: 150px;
+    padding: 0 10px;
+    margin: 0 auto;
+    line-height: 100px;
 }
+
 .client img {
     display: inline-block !important;
+}
+
+/*================================
+    | | |  BLog   | | |
+==================================*/
+
+#blog {
+    background: #f4f4f4;
+}
+
+#blog-left p {
+    margin: 25px 0;
+}
+
+#blog-left #blog-btn a {
+    margin: 0;
+}
+
+.blog-post {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.blog-post h4 {
+    line-height: 40px;
+    margin: 0;
+}
+
+.blog-post>p {
+    line-height: 24px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.blog-post a {
+    display: inline-block;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    color: #f4c613;
+    font-weight: 500;
+    transition: all 400ms linear;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+}
+
+.blog-post a:hover {
+    color: #212226;
+}
+
+.blog-post .post-meta {
+    border-top: 1px solid #e0e0e0;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+.blog-post .post-meta p {
+    font-size: 11px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
 }
