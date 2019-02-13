@@ -124,3 +124,21 @@ $(document).ready(function () {
         time: 2000,
     });
 });
+
+/*================================
+    | | | clients owl-carousel | | |
+==================================*/
+$(document).ready(function () {
+    $('#client-list').owlCarousel({
+        items: 6,
+        loop: true,
+        autoplay: true,
+        SmartSpeed: 700,
+        autoplayHoverPause: true,
+        nav: true,
+        /* <> */
+        dots: false,
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+
+    });
+});
