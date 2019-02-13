@@ -1277,6 +1277,11 @@ footer p span {
 ==================================*/
 nav.navbar{
   padding: 35px 0 20px 0 ;
+  transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
 }
 .nav-site-wrapper{
     padding: 0 85px ;
@@ -1300,8 +1305,8 @@ ul.navbar-nav > li > a:focus{
  /** white navigation**/
 .white-nav-top{
     background: #fff;
-    padding: 10px 0 !important;
-    box-shadow: 0 8px 6px -9px #999 !important;
+    padding: 7px 0 !important;
+    box-shadow: 0 8px 6px -9px #999 ;
     z-index: 2;
 }
 .white-nav-top ul.navbar-nav > li > a{
@@ -1310,4 +1315,4 @@ ul.navbar-nav > li > a:focus{
 .white-nav-top ul.navbar-nav > li > a:hover , 
 .white-nav-top ul.navbar-nav > li > a:focus{
     color: #f4c613  ;
-  }
+}

@@ -125,9 +125,9 @@ $(document).ready(function () {
     });
 });
 
-/*================================
+/*=======================================
     | | | clients owl-carousel | | |
-==================================*/
+=========================================*/
 $(document).ready(function () {
     $('#client-list').owlCarousel({
         items: 6,
@@ -141,4 +141,30 @@ $(document).ready(function () {
         navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
 
     });
+});
+
+/*=======================================
+    | | |   Navigation    | | |
+=========================================*/
+
+/* SHow and Hide NAvigation */
+$(function(){
+   //show or hide on page load
+    showHideNavigation() ;
+    $(window).scroll(function(){
+        showHideNavigation() ;
+    });
+
+  function showHideNavigation(){
+        if( $(window).scrollTop() > 50){
+            //alert("you scroll grater than 50  your scroll = " + $(window).scrollTop());
+            $("nav").addClass("white-nav-top") ;
+            $(".navbar-brand img").attr("src" , "solo-images/logo/logo-dark.png")
+         }
+         else {
+          //alert("you scroll less than 50  your scroll = " + $(window).scrollTop());
+          $("nav").removeClass("white-nav-top");
+          $(".navbar-brand img").attr("src" , "solo-images/logo/logo.png")
+         }
+    }
 });
