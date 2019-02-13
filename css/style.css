@@ -1271,3 +1271,30 @@ footer p {
 footer p span {
     color: #f4c613;
 }
+
+/*================================
+    | | |  Navigation   | | |
+==================================*/
+nav.navbar{
+  padding: 35px 0 20px 0 ;
+}
+.nav-site-wrapper{
+    padding: 0 85px ;
+}
+.navbar-brand{
+    padding: 13px 15px ;
+}
+ul.navbar-nav > li > a{
+  font-family: 'raleway' , sans-serif;
+  color: #fff ;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+ul.navbar-nav > li > a:hover{
+     color: #f4c613 ;
+     background: none ;
+}
+
+  
