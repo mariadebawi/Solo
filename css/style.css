@@ -656,6 +656,7 @@ ul.social-list li:nth-child(3) a:hover {
 .service-tab img {
     width: 100%;
     margin: 0 auto;
+    height:100% ;
 }
 
 .service-tab .tab-bg {
