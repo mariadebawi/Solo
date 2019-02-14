@@ -1361,3 +1361,90 @@ ul.navbar-nav > li > a:focus{
 #arrow-down {
     animation-delay: 3s;
 }
+
+/*================================
+    | | | Mobile Menu  | | |
+==================================*/
+.nav-site-wrapper{
+    position: relative;
+}
+#mobile-nav-open-btn{
+    font-size: 30px ;
+    color: #f4c613 ;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    right: 0px;
+    top: 6px ;
+    /* hide nav-mobile button on large device*/
+    display: none;
+}
+#mobile-nav{
+    width: 100%;
+    /* hide moblie-nav-menu on large device*/
+    height: 0%;
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    z-index: 3;
+    background-color: rgba(250,250,250,.9);
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    overflow-y: hidden ;
+}
+#mobile-nav-close-btn{
+    font-family: 'raleway' , sans-serif;
+    font-size: 70px ;
+    color: #212226 ;
+    font-weight: 400;
+    cursor: pointer ;
+    position: absolute;
+    right: 30px;
+    top: -7px ;
+    transition: all .3s linear ;
+    -webkit-transition: all .3s linear ;
+    -moz-transition: all .3s linear ;
+    -ms-transition: all .3s linear ;
+    -o-transition: all .3s linear ;
+}
+#mobile-nav-close-btn:hover , 
+#mobile-nav-close-btn:focus
+{
+   color: #f4c613;
+}
+#mobile-nav-content{
+    text-align: center;
+    width: 100% ;
+    margin-top: 30px ;
+    position: relative;
+    top: 10% ;
+}
+#mobile-nav-content ul li{
+    margin-bottom: 20px;
+}
+#mobile-nav-content ul li a{
+    font-family: 'raleway' , sans-serif;
+    font-size: 18px ;
+    color: #212226 ;
+    font-weight: 400;
+    display: inline;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+#mobile-nav-content ul li a:hover , 
+#mobile-nav-content ul li a:focus{
+    color: #f4c612 ;
+    text-decoration: none ;
+}
+/* ScroollSpy active class */
+#mobile-nav-content ul li a.active {
+    color: #f4c613  ;
+    font-weight: 500;
+}
+

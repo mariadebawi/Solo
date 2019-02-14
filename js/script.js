@@ -203,3 +203,19 @@ $(window).on('load', function () {
     $("#home-btn").addClass("animated zoomIn") ;
     $("#arrow-down").addClass("animated fadeInDown infinite") ;
 });
+
+/*=======================================
+    | | |   Mobile Menu    | | |
+=========================================*/
+$(function(){
+  //show mobile navigation
+  $("#mobile-nav-open-btn").click(function(){
+     //alert("you open nav") ;
+     $("#mobile-nav").css("height","100%") ;
+  });
+  //hide mobile navigation
+  $("#mobile-nav-close-btn , #mobile-nav a").click(function(){
+    //alert("you open nav") ;
+    $("#mobile-nav").css("height","0%") ;
+ });
+});

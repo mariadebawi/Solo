@@ -1,0 +1,14 @@
+
+@media(max-width:990px){
+    nav.navbar {
+        padding: 20px 30px !important;
+    }
+    .nav-site-wrapper , 
+    .white-nav-top{
+        padding: 0 !important;
+    }
+    #mobile-nav-open-btn{
+        /* show nav-mobile button on large device*/
+        display: block !important;
+    }
+}
