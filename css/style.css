@@ -14,7 +14,8 @@
     | | | html , body  , buttons | | |
 ==========================================*/
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -22,7 +23,12 @@ body {
     color: #212226;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'raleway', sans-serif;
 }
 
@@ -62,7 +68,8 @@ section {
     border: 1px solid #f4c613;
 }
 
-.btn-yellow:hover, .btn-yellow:focus {
+.btn-yellow:hover,
+.btn-yellow:focus {
     color: #fff;
     background: #212226;
     border: 1px solid #212226;
@@ -74,10 +81,25 @@ section {
     border: 1px solid #fff;
 }
 
-.btn-white:hover, .btn-white:focus {
+.btn-white:hover,
+.btn-white:focus {
     color: #fff;
     background: #212226;
     border: 1px solid #212226;
+}
+
+.btn-back-to-top {
+    position: fixed !important;
+    right: 20px !important;
+    bottom: 20px !important;
+    padding: 3px 15px !important;
+    border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    -ms-border-radius: 4px !important;
+    -o-border-radius: 4px !important;
+    font-size: 22px !important;
+    display: none;
 }
 
 /*================================
@@ -91,7 +113,7 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 999;
+    z-index: 2;
 }
 
 #status {
@@ -180,7 +202,8 @@ section {
     border: 1px solid #fff;
 }
 
-.btn-home:hover, .btn-home:focus {
+.btn-home:hover,
+.btn-home:focus {
     color: #fff;
     background: #f4c613;
     border: 1px solid #f4c613;
@@ -202,7 +225,8 @@ section {
     z-index: 1;
 }
 
-#arrow-down:hover, #arrow-down:focus {
+#arrow-down:hover,
+#arrow-down:focus {
     color: #f4c613;
 }
 
@@ -247,7 +271,8 @@ section {
     margin: 0 0 0 35px;
 }
 
-.vertical-heading h2, .horizontal-heading h2 {
+.vertical-heading h2,
+.horizontal-heading h2 {
     font-size: 42px;
     font-weight: 100;
     line-height: 45px;
@@ -326,7 +351,9 @@ section {
     background-color: #f4c613;
 }
 
-.about-item:hover i, .about-item:hover h3, .about-item:hover p {
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
     color: #fff;
 }
 
@@ -342,7 +369,9 @@ section {
     -o-transform: translateY(-20px);
 }
 
-.about-item i, .about-item h3, .about-item p {
+.about-item i,
+.about-item h3,
+.about-item p {
     transition: all 400ms ease-in-out;
     -webkit-transition: all 400ms ease-in-out;
     -moz-transition: all 400ms ease-in-out;
@@ -982,11 +1011,15 @@ ul.social-list li:nth-child(3) a:hover {
     width: 24px;
 }
 
-.pricing-table .btn-yellow, .pricing-table.black .btn-white {
+.pricing-table .btn-yellow,
+.pricing-table.black .btn-white {
     width: 96%;
 }
 
-.pricing-table:hover h4, .pricing-table:hover h2, .pricing-table:hover p, .pricing-table:hover ul.package {
+.pricing-table:hover h4,
+.pricing-table:hover h2,
+.pricing-table:hover p,
+.pricing-table:hover ul.package {
     color: #fff;
 }
 
@@ -996,7 +1029,8 @@ ul.social-list li:nth-child(3) a:hover {
     border: 1px solid #fff;
 }
 
-.pricing-table .btn-yellow:hover, .pricing-table .btn-yellow:focus {
+.pricing-table .btn-yellow:hover,
+.pricing-table .btn-yellow:focus {
     background: #212226;
     color: #fff;
     border: 1px solid #212226;
@@ -1218,7 +1252,8 @@ ul.office-details li i {
     border: 1px solid #212226;
 }
 
-#contact-left ul.social-list li a:hover, #contact-left ul.social-list li a:focus {
+#contact-left ul.social-list li a:hover,
+#contact-left ul.social-list li a:focus {
     color: #fff;
     border-color: transparent;
 }
@@ -1275,44 +1310,57 @@ footer p span {
 /*================================
     | | |  Navigation   | | |
 ==================================*/
-nav.navbar{
-  padding: 35px 0 20px 0 ;
-  transition: all 300ms linear;
-  -webkit-transition: all 300ms linear;
-  -moz-transition: all 300ms linear;
-  -ms-transition: all 300ms linear;
-  -o-transition: all 300ms linear;
+nav.navbar {
+    padding: 35px 0 20px 0;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
 }
-.nav-site-wrapper{
-    padding: 0 85px ;
+
+.nav-site-wrapper {
+    padding: 0 85px;
 }
-.navbar-brand{
-    padding: 13px 15px ;
+
+.navbar-brand {
+    padding: 13px 15px;
 }
-ul.navbar-nav > li > a{
-  font-family: 'raleway' , sans-serif;
-  color: #fff ;
-  font-size: 13px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+
+ul.navbar-nav>li>a {
+    font-family: 'raleway', sans-serif;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
-ul.navbar-nav > li > a:hover , 
-ul.navbar-nav > li > a:focus{
-     color: #f4c613 ;
-     background: none ;
+
+ul.navbar-nav>li>a:hover,
+ul.navbar-nav>li>a:focus {
+    color: #f4c613;
+    background: none;
 }
- /** white navigation**/
-.white-nav-top{
+
+/** white navigation**/
+.white-nav-top {
     background: #fff;
     padding: 7px 0 !important;
-    box-shadow: 0 8px 6px -9px #999 ;
+    box-shadow: 0 8px 6px -9px #999;
     z-index: 2;
 }
-.white-nav-top ul.navbar-nav > li > a{
-  color: #212226 ;
+
+.white-nav-top ul.navbar-nav>li>a {
+    color: #212226;
 }
-.white-nav-top ul.navbar-nav > li > a:hover , 
-.white-nav-top ul.navbar-nav > li > a:focus{
-    color: #f4c613  ;
+
+.white-nav-top ul.navbar-nav>li>a:hover,
+.white-nav-top ul.navbar-nav>li>a:focus {
+    color: #f4c613;
+}
+
+/* active class */
+.white-nav-top ul.navbar-nav>li>a.active {
+    color: #f4c613;
+    font-weight: 500;
 }

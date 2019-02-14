@@ -28,7 +28,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="65">
     <!--  Preloader  -->
     <div id="preloader">
         <div id="status">
@@ -41,26 +41,27 @@
         <nav class="navbar navbar-expand-lg fixed-top ">
             <div class="container-fluid nav-site-wrapper">
                 <!-- logo-->
-                <a class="navbar-brand" href="#home"><img src="solo-images/logo/logo.png" alt="logo"></a>
+                <a class="navbar-brand smooth-scroll" href="#home"><img src="solo-images/logo/logo.png" alt="logo"></a>
                 <!-- Main Menu-->
                 <div class="container">
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item ">
-                                <a class="nav-link" href="#home">Home</a>
+                                <a class="nav-link smooth-scroll" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#about">About</a>
+                                <a class="nav-link smooth-scroll" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#services">Services</a>
+                                    <a class="nav-link smooth-scroll" href="#team">Team</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#portfolio">Work</a>
+                                <a class="nav-link smooth-scroll" href="#services">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#team">Team</a>
+                                <a class="nav-link smooth-scroll" href="#portfolio">Work</a>
                             </li>
+                           
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contact</a>
                             </li>
@@ -99,12 +100,12 @@
                     </p>
                 </div>
                 <div id="home-btn">
-                    <a href="#about" title="Start Now" class="btn btn-generale btn-home" role="button"> Start now</a>
+                    <a href="#about" title="Start Now" class="btn btn-generale btn-home smooth-scroll" role="button"> Start now</a>
                 </div>
             </div>
         </div>
         <!-- Arrow down-->
-        <a href="#about" title="About" id="arrow-down">
+        <a href="#about" title="About" class="smooth-scroll" id="arrow-down">
             <i class="fas fa-angle-down"></i>
         </a>
     </section>
@@ -1243,6 +1244,10 @@
                 </div>
             </div>
         </div>
+        <!-- Back to top-->
+        <a href="#home" class="btn btn-sm btn-yellow btn-back-to-top smooth-scroll" title="Home" role="home" id="back-to-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
     </footer>
     <!-- End Footer-->
 
@@ -1264,6 +1269,8 @@
     <script src="js/magnific Popup/jquery.magnific-popup.min.js"></script>
     <!-- Counter-->
     <script src="js/counter/jquery.counterup.js"></script>
+    <!-- easing Pluging-->
+    <script src="js/easing-pluging/jquery.easing.1.3.js"></script>
     <!-- Costom js -->
     <script src="js/script.js"></script>
 

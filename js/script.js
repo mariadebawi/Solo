@@ -147,24 +147,43 @@ $(document).ready(function () {
     | | |   Navigation    | | |
 =========================================*/
 
-/* SHow and Hide NAvigation */
-$(function(){
-   //show or hide on page load
-    showHideNavigation() ;
-    $(window).scroll(function(){
-        showHideNavigation() ;
+/* SHow and Hide Navigation */
+$(function () {
+    //show or hide on page load
+    showHideNavigation();
+
+    $(window).scroll(function () {
+        showHideNavigation();
     });
 
-  function showHideNavigation(){
-        if( $(window).scrollTop() > 50){
+    function showHideNavigation() {
+        if ($(window).scrollTop() > 50) {
             //alert("you scroll grater than 50  your scroll = " + $(window).scrollTop());
-            $("nav").addClass("white-nav-top") ;
-            $(".navbar-brand img").attr("src" , "solo-images/logo/logo-dark.png")
-         }
-         else {
-          //alert("you scroll less than 50  your scroll = " + $(window).scrollTop());
-          $("nav").removeClass("white-nav-top");
-          $(".navbar-brand img").attr("src" , "solo-images/logo/logo.png")
-         }
+            $("nav").addClass("white-nav-top");
+            $(".navbar-brand img").attr("src", "solo-images/logo/logo-dark.png")
+            //show the icon back-to-top
+            $("#back-to-top").fadeIn();
+        } else {
+            //alert("you scroll less than 50  your scroll = " + $(window).scrollTop());
+            $("nav").removeClass("white-nav-top");
+            $(".navbar-brand img").attr("src", "solo-images/logo/logo.png");
+            //hide the icon back-to-top
+            $("#back-to-top").fadeOut();
+        }
     }
+});
+
+//smooth scrolling
+$(function () {
+    $("a.smooth-scroll").click(function () {
+
+        //get the id of a section like #home
+        var section_id = $(this).attr("href");
+
+        $("html , body").animate({
+            scrollTop: $(section_id).offset().top - 64
+        }, 1250, "easeInOutExpo");
+
+    });
+
 });
