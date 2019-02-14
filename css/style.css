@@ -1329,8 +1329,35 @@ ul.navbar-nav > li > a:focus{
 .white-nav-top ul.navbar-nav > li > a:focus{
     color: #f4c613  ;
 }
-/* active class */
+/* ScroollSpy active class */
 .white-nav-top ul.navbar-nav > li > a.active {
     color: #f4c613  ;
     font-weight: 500;
+}
+
+
+/*================================
+    | | |  Animation   | | |
+==================================*/
+#home-heading-1 , 
+#home-heading-2 ,
+#home-text,
+#home-btn,
+#arrow-down {
+    animation-duration: 1s;
+}
+#home-heading-1 {
+    animation-delay: 1s;
+}
+#home-heading-2 {
+    animation-delay: 1.5s;
+}
+#home-text {
+    animation-delay: 2s;
+}
+#home-btn {
+    animation-delay: 2.5s;
+}
+#arrow-down {
+    animation-delay: 3s;
 }
