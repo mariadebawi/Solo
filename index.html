@@ -43,8 +43,12 @@
     <header>
         <nav class="navbar navbar-expand-lg fixed-top ">
             <div class="container-fluid nav-site-wrapper">
-                <!-- logo-->
+                <div class="navbarHeader">
+                  <!-- logo-->
                 <a class="navbar-brand smooth-scroll" href="#home"><img src="solo-images/logo/logo.png" alt="logo"></a>
+                <!-- Mobile Open Button -->
+                <span id="mobile-nav-open-btn">&#9776;</span>
+                </div>
                 <!-- Main Menu-->
                 <div class="container">
                     <div class="collapse navbar-collapse" id="navbarNav">
@@ -70,6 +74,36 @@
                             </li>
                         </ul>
                     </div>
+                </div>
+                <!-- Mobile Menu-->
+                <div id="mobile-nav">
+                   <!-- Mobile Close Button -->
+                   <span id="mobile-nav-close-btn">&times;</span>
+                     <div id="mobile-nav-content">
+                         <ul class="nav">
+                                        <li class="nav-item ">
+                                            <a class="nav-link smooth-scroll" href="#home">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link smooth-scroll" href="#about">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link smooth-scroll" href="#team">Team</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link smooth-scroll" href="#services">Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link smooth-scroll" href="#portfolio">Work</a>
+                                        </li>
+                                       
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#contact">Contact</a>
+                                        </li>
+                                   
+                         </ul>
+                     </div>
+
                 </div>
             </div>
         </nav>
@@ -458,7 +492,7 @@
         <!-- End Services 01 -->
         <!-- Services 02 -->
         <div id="services-02">
-            <div class="content-box-md">
+            <div class="content-box-md ">
                 <div id="services-tabs">
                     <ul class="text-center">
                         <li><a href="#service-tab-01">Creativity</a></li>
