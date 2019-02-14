@@ -1218,7 +1218,7 @@ ul.office-details li {
     font-family: 'open sans', sans-serif;
     font-size: 12px;
     margin-top: 12px;
-    display: flex;
+    display: inline-flex;
 }
 
 ul.office-details li i {
