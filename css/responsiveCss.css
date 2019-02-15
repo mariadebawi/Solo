@@ -151,8 +151,7 @@
 
 }
 
-/* @media (min-width:575px) and (max-width:767px) **/
-@media(max-width:767px) {
+@media (min-width:576px) and (max-width:767px){
      /** generic*/
      .vertical-heading h2 {
         font-size: 29px !important;
@@ -208,20 +207,6 @@
     -o-transition: border-bottom 300ms linear !important;
 }
 
-/** stats*/ 
-.stats-item i {
-    font-size: 30px !important;
-    margin: 0 0 6px -12px !important;
-}
-.stats-item h3.counter{
-    font-size: 20px;
-    margin: 5px 0 0 -8px !important;
-}
-
-.stats-item p {
-    margin: 10px 0 0 -18px !important;
-    line-height: 15px !important;
-}
 
 /* contact **/
 ul.office-details li i {
