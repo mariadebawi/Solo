@@ -152,69 +152,6 @@
 }
 
 @media (min-width:576px) and (max-width:767px){
-     /** generic*/
-     .vertical-heading h2 {
-        font-size: 29px !important;
-    }
-
-    #home-heading h1 {
-        font-size: 40px !important;
-    }
-
-    #home-text p {
-        font-size: 15px !important;
-    }
-
-    .btn-generale {
-        font-size: 10px !important;
-        margin: 0 !important;
-        padding: 8px 35px 8px 35px !important;
-    }
-
-   .skill h4 {
-       font-size: 15px !important;
-   }
-
-   /** statement*/
-   #tech-statement h3 {
-    font-size: 20px !important;
-    line-height: 30px !important ;
-}
- /** responsive tab */
- #services-tabs .r-tabs-accordion-title{
-    text-align: center !important;
-    margin-bottom: 10px !important;
-}
-#services-tabs .r-tabs-accordion-title a{
-    font-family: "Raleway", sans-serif;
-    font-size: 13px;
-    color: #212226;
-    text-transform: uppercase;
-    font-weight: 400;
-    padding: 0;
-    text-decoration: none;
-}
-
-.r-tabs-accordion-title.r-tabs-state-active a {
-    color: #f4c613 !important;
-    font-weight: 700 !important;
-    border-bottom: 3px solid #f4c613 !important;
-    padding-bottom: 5px !important;
-    transition: border-bottom 300ms linear !important;
-    -webkit-transition: border-bottom 300ms linear !important;
-    -moz-transition: border-bottom 300ms linear !important;
-    -ms-transition: border-bottom 300ms linear !important;
-    -o-transition: border-bottom 300ms linear !important;
-}
-
-
-/* contact **/
-ul.office-details li i {
-  width: 25px !important;
-}
-ul.office-details li  {
-   margin-right: 15px ; 
-  }
    
 
 }
