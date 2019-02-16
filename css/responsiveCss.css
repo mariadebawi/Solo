@@ -53,11 +53,12 @@
         font-size: 35px !important;
         margin: 0 0 0 17px !important;
     }
+
     /* blog**/
     .blog-post h4 {
         font-size: 20px !important;
     }
-    
+
     /** contact */
     #offices .office h4 {
         font-size: 20px !important;
@@ -65,7 +66,7 @@
 }
 
 
-@media(width:768px){
+@media(width:768px) {
 
     /** generic*/
     .vertical-heading h2 {
@@ -85,10 +86,10 @@
         margin: 0 !important;
         padding: 8px 35px 8px 35px !important;
     }
-    
-   .skill h4 {
-       font-size: 18px !important;
-   }
+
+    .skill h4 {
+        font-size: 18px !important;
+    }
 
 
 
@@ -98,11 +99,12 @@
     }
 
     /** responsive tab */
-    #services-tabs .r-tabs-accordion-title{
+    #services-tabs .r-tabs-accordion-title {
         text-align: center !important;
         margin-bottom: 10px !important;
     }
-    #services-tabs .r-tabs-accordion-title a{
+
+    #services-tabs .r-tabs-accordion-title a {
         font-family: "Raleway", sans-serif;
         font-size: 13px;
         color: #212226;
@@ -122,36 +124,134 @@
         -moz-transition: border-bottom 300ms linear !important;
         -ms-transition: border-bottom 300ms linear !important;
         -o-transition: border-bottom 300ms linear !important;
-}
-  /** statement*/
-  #tech-statement h3 {
-    font-size: 20px !important;
-    line-height: 30px !important ;
-}
+    }
+
+    /** statement*/
+    #tech-statement h3 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
     /** Price*/
     .pricing-table .price h2 {
 
         font-size: 35px !important;
         margin: 0 0 0 17px !important;
     }
-        /* blog**/
-        .blog-post h4 {
-            font-size: 20px !important;
-        }
-        .blog-post .post-meta p {
-            line-height: 14px !important;
-        }
+
+    /* blog**/
+    .blog-post h4 {
+        font-size: 20px !important;
+    }
+
+    .blog-post .post-meta p {
+        line-height: 14px !important;
+    }
 
     /** contact */
     #offices .office h4 {
         font-size: 20px !important;
     }
 
-   
+
 
 }
 
-@media (min-width:576px) and (max-width:767px){
-   
+@media (max-width:767px) {
+
+    /** home*/
+    #home-heading h1 {
+        font-size: 22px !important;
+    }
+
+    #home-text p {
+        font-size: 13px !important;
+        line-height: 18px !important;
+        margin: 8px 2px 30px 2px !important;
+    }
+
+    /** generic*/
+    .btn-generale {
+        font-size: 10px !important;
+
+        padding: 8px 25px 6px 25px !important;
+    }
+
+    .content-box-lg {
+        padding: 90px 0 !important;
+    }
+
+    .content-box-md {
+        padding: 80px 0 !important;
+    }
+
+    .vertical-heading {
+        text-align: center !important;
+    }
+
+    .vertical-heading h5 {
+        transform: rotate(0deg) !important;
+        -webkit-transform: rotate(0deg) !important;
+        -moz-transform: rotate(0deg) !important;
+        -ms-transform: rotate(0deg) !important;
+        -o-transform: rotate(0deg) !important;
+        display: block !important;
+        position: static !important;
+        margin-bottom: 15px !important;
+    }
+
+    .vertical-heading h2 {
+        line-height: normal !important;
+        font-size: 29px !important;
+        margin: 0 !important;
+    }
+
+    /* about  01**/
+    #about-left {
+        margin-bottom: 50px !important;
+    }
+
+    #about-right {
+        text-align: center !important;
+    }
+
+    /* about  02**/
+    .about-item {
+        padding: 55px 30px !important;
+        margin-bottom: 35px !important;
+    }
+
+    .about-item i {
+        font-size: 30px !important;
+    }
+
+    .about-item h3 {
+        font-size: 18px !important;
+    }
+
+    /* team */
+    #team-left .vertical-heading {
+        min-height: 130px !important;
+    }
+
+    .skill h4 {
+        line-height: 35px !important;
+        font-size: 14px !important;
+    }
+
+    .progress {
+        height: 20px !important;
+    }
+
+    /** statement*/
+    #tech-statement h3 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+
+
 
 }
+
+@media (min-width:574px) {}
