@@ -335,5 +335,53 @@
             width: 80px !important ;
         }
         
+        /** pricing */
+        .pricing-table {
+            margin-bottom: 30px !important;
+        }
+        .pricing-table .price h2 {
+           font-size: 28px !important;
+           margin: 0 0 0 16px  !important; 
+        }
+
+        /** stats **/
+        .stats-item  {
+           margin-bottom: 20px !important;
+           padding: 25px 5px !important ;
+        }
+        .stats-item  i {
+           font-size: 30px !important;
+         }
+         .stats-item  h3 {
+            font-size: 24px !important;
+          }
+
+          /** blog**/
+          #blog-left  {
+            text-align: center  ;
+            margin-bottom: 30px ;
+        }
+        .blog-post {
+            margin-bottom: 25px ;
+        }
+
+        /* contact */
+        #contact-left {
+            text-align: center ;
+        }
+        .office {
+            margin-bottom: 40px ;
+        }
+        ul.office-details li {
+            display: block !important;
+            margin-top: 25px !important;
+        }
+        ul.office-details li i {
+            display: block !important;
+            width: auto !important ;
+            margin-bottom: 3px !important;
+        }
+        #contact-left ul.social-list  {
+           margin-bottom: 40px !important;
+        }
     }
-@media (min-width:574px) {}
