@@ -202,10 +202,12 @@
         font-size: 29px !important;
         margin: 0 !important;
     }
+
     .horizontal-heading {
         margin-bottom: 40px !important;
     }
-    .horizontal-heading h2{
+
+    .horizontal-heading h2 {
         font-size: 30px !important;
     }
 
@@ -251,137 +253,210 @@
         font-size: 20px !important;
         line-height: 30px !important;
     }
-   
+
     /** service 01*/
     #services-01 img {
         margin: 30px 0 !important;
     }
-    .service , .service .icon  {
-      text-align: center !important;
-    }   
-    .service .icon  {
+
+    .service,
+    .service .icon {
+        text-align: center !important;
+    }
+
+    .service .icon {
         font-size: 30px;
     }
-    .service h4{
+
+    .service h4 {
         font-size: 18px !important;
     }
-        /** responsive tab */
-        #services-tabs .r-tabs-accordion-title {
-            text-align: center !important;
-            margin-bottom: 10px !important;
-        }
-    
-        #services-tabs .r-tabs-accordion-title a {
-            font-family: "Raleway", sans-serif;
-            font-size: 13px;
-            color: #212226;
-            text-transform: uppercase;
-            font-weight: 400;
-            padding: 0;
-            text-decoration: none;
-        }
-    
-        .r-tabs-accordion-title.r-tabs-state-active a {
-            color: #f4c613 !important;
-            font-weight: 700 !important;
-            border-bottom: 3px solid #f4c613 !important;
-            padding-bottom: 5px !important;
-            transition: border-bottom 300ms linear !important;
-            -webkit-transition: border-bottom 300ms linear !important;
-            -moz-transition: border-bottom 300ms linear !important;
-            -ms-transition: border-bottom 300ms linear !important;
-            -o-transition: border-bottom 300ms linear !important;
-        }
-        .service-tab .tab-bg {
-            padding: 40px 30px !important;
-            text-align: center !important;
-        }
-        .service-tab .tab-bg h2 {
-            font-size: 40px !important;
-        }
-        .service-tab .tab-bg h3 {
-            font-size: 28px !important;
-        }
-      
-        /*portfolio*/
-        #portfolio {
-            padding-bottom: 0 !important;
-           
-        }
-        #isotop-filters button {
-            padding-right: 10px  !important;
-        }
 
-        /** testemonials **/
-        #testimonials{
-            padding-top: 45px !important ;
-        }
-        .testemonial-slider {
-           top: 0 !important ;
-        }
-        #testimonials .vertical-heading {
-            margin : 0  !important;
-        }
-        .testemonial .row {
-            margin: 0 !important;
-        }
-        .testemonial h3 {
-            font-size: 20px !important;
-        }
-        .testemonial .stars {
-            font-size: 16px !important ;
-        }
-        .author img{
-            width: 80px !important ;
-        }
-        
-        /** pricing */
-        .pricing-table {
-            margin-bottom: 30px !important;
-        }
-        .pricing-table .price h2 {
-           font-size: 28px !important;
-           margin: 0 0 0 16px  !important; 
-        }
-
-        /** stats **/
-        .stats-item  {
-           margin-bottom: 20px !important;
-           padding: 25px 5px !important ;
-        }
-        .stats-item  i {
-           font-size: 30px !important;
-         }
-         .stats-item  h3 {
-            font-size: 24px !important;
-          }
-
-          /** blog**/
-          #blog-left  {
-            text-align: center  ;
-            margin-bottom: 30px ;
-        }
-        .blog-post {
-            margin-bottom: 25px ;
-        }
-
-        /* contact */
-        #contact-left {
-            text-align: center ;
-        }
-        .office {
-            margin-bottom: 40px ;
-        }
-        ul.office-details li {
-            display: block !important;
-            margin-top: 25px !important;
-        }
-        ul.office-details li i {
-            display: block !important;
-            width: auto !important ;
-            margin-bottom: 3px !important;
-        }
-        #contact-left ul.social-list  {
-           margin-bottom: 40px !important;
-        }
+    /** responsive tab */
+    #services-tabs .r-tabs-accordion-title {
+        text-align: center !important;
+        margin-bottom: 10px !important;
     }
+
+    #services-tabs .r-tabs-accordion-title a {
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        color: #212226;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .r-tabs-accordion-title.r-tabs-state-active a {
+        color: #f4c613 !important;
+        font-weight: 700 !important;
+        border-bottom: 3px solid #f4c613 !important;
+        padding-bottom: 5px !important;
+        transition: border-bottom 300ms linear !important;
+        -webkit-transition: border-bottom 300ms linear !important;
+        -moz-transition: border-bottom 300ms linear !important;
+        -ms-transition: border-bottom 300ms linear !important;
+        -o-transition: border-bottom 300ms linear !important;
+    }
+
+    .service-tab .tab-bg {
+        padding: 40px 30px !important;
+        text-align: center !important;
+    }
+
+    .service-tab .tab-bg h2 {
+        font-size: 40px !important;
+    }
+
+    .service-tab .tab-bg h3 {
+        font-size: 28px !important;
+    }
+
+    /*portfolio*/
+    #portfolio {
+        padding-bottom: 0 !important;
+
+    }
+
+    #isotop-filters button {
+        padding-right: 10px !important;
+    }
+
+    /** testemonials **/
+    #testimonials {
+        padding-top: 45px !important;
+    }
+
+    .testemonial-slider {
+        top: 0 !important;
+    }
+
+    #testimonials .vertical-heading {
+        margin: 0 !important;
+    }
+
+    .testemonial .row {
+        margin: 0 !important;
+    }
+
+    .testemonial h3 {
+        font-size: 20px !important;
+    }
+
+    .testemonial .stars {
+        font-size: 16px !important;
+    }
+
+    .author img {
+        width: 80px !important;
+    }
+
+    /** pricing */
+    .pricing-table {
+        margin-bottom: 30px !important;
+    }
+
+    .pricing-table .price h2 {
+        font-size: 28px !important;
+        margin: 0 0 0 16px !important;
+    }
+
+    /** stats **/
+    .stats-item {
+        margin-bottom: 20px !important;
+        padding: 25px 5px !important;
+    }
+
+    .stats-item i {
+        font-size: 30px !important;
+    }
+
+    .stats-item h3 {
+        font-size: 24px !important;
+    }
+
+    /** blog**/
+    #blog-left {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .blog-post {
+        margin-bottom: 25px;
+    }
+
+    /* contact */
+    #contact-left {
+        text-align: center;
+    }
+
+    .office {
+        margin-bottom: 40px;
+    }
+
+    ul.office-details li {
+        display: block !important;
+        margin-top: 25px !important;
+    }
+
+    ul.office-details li i {
+        display: block !important;
+        width: auto !important;
+        margin-bottom: 3px !important;
+    }
+
+    #contact-left ul.social-list {
+        margin-bottom: 40px !important;
+    }
+}
+
+@media (max-width:480px) {
+  /** home*/
+  #home-heading h1 {
+    font-size: 18px !important;
+}
+
+#home-text p {
+    font-size: 11px !important;
+    line-height: 16px !important;
+    margin: 8px 10px 25px 10px !important;
+}
+.vertical-heading  h2{
+    font-size: 22px !important;
+}
+
+/* isotope*/
+#isotop-filters  {
+    text-align: center !important ;
+}
+#isotop-filters button {
+    font-size: 10px !important;
+    padding-right: 14px !important;
+}
+
+/**testemonial**/
+.testemonial h3 {
+    font-size: 14px !important;
+    line-height: 18px !important;
+}
+
+.testemonial .stars {
+    font-size: 13px !important;
+}
+
+
+@media (max-width:320px) {}
+
+/**testemonial**/
+.testemonial h3 {
+    font-size: 12px !important;
+    line-height: 16px !important;
+}
+
+.testemonial .stars {
+    font-size: 10px !important;
+}
+
+
+}

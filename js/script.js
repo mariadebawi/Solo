@@ -139,7 +139,20 @@ $(document).ready(function () {
         /* <> */
         dots: false,
         navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-
+        responsive: {
+            // breakpoint from 0 up // screen < 480px
+            0: {
+                items: 2
+            },
+            // breakpoint from 480 up // scree between then 767px and 480px 
+            480: {
+                items: 3
+            },
+             // breakpoint from 768 up // screen >=768px
+             768: {
+                items: 6 
+            }
+        }
     });
 });
 
